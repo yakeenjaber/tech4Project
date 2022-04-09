@@ -8,14 +8,10 @@ import java.util.regex.Pattern;
 public class Project08 {
 
     //Task 1:
-    public static int countMultipleWords(String[] strings) {
+    public static int countMultipleWords(String[] words){
         int count = 0;
-        for (String str : strings) {
-            str = str.trim();
-            for (int i = 0; i < str.length(); i++) {
-                if (Character.isSpaceChar(str.charAt(i))) count++;
-
-            }
+        for (String str : words) {
+            if(str.trim().contains(" ")) count++;
         }
         return count;
     }
