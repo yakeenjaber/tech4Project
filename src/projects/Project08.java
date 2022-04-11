@@ -27,9 +27,22 @@ public class Project08 {
 
     //Task 3:
     public static boolean validatePassword(String password){
-        String regex = "^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%!]).{8,20}$";
-        Pattern pattern = Pattern.compile(regex);
-        return pattern.matcher(password).matches();
+        //with regex
+//        String regex = "^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%!]).{8,20}$";
+//        Pattern pattern = Pattern.compile(regex);
+//        return pattern.matcher(password).matches();
+
+        //without regex
+        int upper = 0, lower = 0, digit = 0, special = 0;
+        for (int i = 0; i < password.length(); i++) {
+            if (password.length() >= 8 && password.length() <= 16 && !password.contains(" ")) {
+                if (Character.isUpperCase(password.charAt(i))) upper++;
+                if (Character.isLowerCase(password.charAt(i))) lower++;
+                if (!Character.isDigit(password.charAt(i)) && !Character.isLetter(password.charAt(i))) special++;
+                if (Character.isDigit(password.charAt(i))) digit++;
+            }
+        }
+        return (upper > 0 && lower > 0 && digit > 0 && special > 0);
     }
 
     //Task 4:

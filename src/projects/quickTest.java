@@ -2,10 +2,11 @@ package projects;
 
 public class quickTest {
 
+    static {
+        System.out.println("Inside the static block");
+    }
+
     public static void main(String[] args) {
-
-        char c1 = '#';
-        int asci1 = c1;
-
+        System.out.println("main method starts here");
     }
 }
