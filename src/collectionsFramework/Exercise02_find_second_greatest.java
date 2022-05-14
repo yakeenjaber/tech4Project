@@ -23,6 +23,7 @@ public class Exercise02_find_second_greatest {
 
         //TreeSet -> [1, 3, 5, 7, 10]
         ArrayList<Integer> uniquesList = new ArrayList<>(new TreeSet<>(numbers));
+        System.out.println(uniquesList);
         System.out.println(uniquesList.get(uniquesList.size()-2)); // 7
         System.out.println(uniquesList.get(1)); // 3
 
