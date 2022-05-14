@@ -106,7 +106,7 @@
 	<br><br>
 	<input type="text" name="Address", id="Address", placeholder="Enter your address" style="height: 50px; width:  300px"><br><br>
 	<textarea placeholder="How did you hear about us?" style="height: 50px; width: 300px;"></textarea> <br>
-	<textarea placeholder="Please explain why you would like to join our schoo...?" style="height: 50px; width: 300px;"></textarea> <br>
+	<textarea placeholder="Please explain why you would like to join our school..." style="height: 50px; width: 300px;"></textarea> <br>
 	<input type="submit" name="Apply Now", id="click", placeholder="Apply Now">
 </body>
 </html>
