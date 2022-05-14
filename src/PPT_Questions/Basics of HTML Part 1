@@ -1,0 +1,60 @@
+1. What is HTML and the purpose of using HTML?
+    - HTML describes the structure of a web page. It tells the browser how to display content on a page.
+2. What is head and body tags used for in HTML documents?
+    - The invisible part of the HTML document goes into <head></head> tag
+        - Page title
+        - Links to CSS
+    - The visible part of the HTML document goes into <body></body> tag
+        - Headings
+        - Paragraphs
+        - Images
+        - Tables
+        - Lists
+        - etc.
+3. What are tags and elements in an HTML document?
+    - Everything that we see on a web page is web element
+    - Tag is basically considered as container in HTML
+4. What is the difference between tags and attributes?
+    - HTML elements can have many attributes
+        - This can include style attribute with HTML elements to define elements’ color, font, size, background color, alignment, etc
+5. Please list the HTML tags you know and explain them shortly.
+    <html> … </html> — The root element.
+    <head> … </head> — The document head.
+    <title> … </title> — The page title.
+    <body> … </body> — The page's content.
+    <h1> … </h1> — A section heading.
+    <p> … </p> — A paragraph.
+    <a> … </a> — A link.
+    <img> — An image
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                CELEBRITY HTML CODE
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Will Smith</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		body {
+			text-align: center;
+			background-color: lightgray;
+		}
+	</style>
+</head>
+<body>
+	<h1 id="demotext" style="font-size: 50px;color: black;">My Not So Favorite Celebrity</h1>
+	<h2 id="demotext" style="font-size: 40px;color: black;">Will Smith</h2>
+			<img src="https://upload.wikimedia.org/wikipedia/en/1/18/Will_Smith_slaps_Chris_Rock.jpg" alt="Will Smith Slap">
+			<hr>
+			<p id ="bodycolor";><b id="boldtext">Will Smith</b> also known by his stage name the Fresh Prince, is an American actor, rapper, and producer. Noted for his work in music, television, and film,[4] Smith has received various accolades, including an Academy Award, a BAFTA Award, a Golden Globe Award, a Screen Actors Guild Award, four Grammy Awards, and nominations for a Primetime Emmy Award and a Tony Award. His Emmy, Grammy, Oscar and Tony nominations make him one of few black individuals to be nominated for the four major American entertainment awards (EGOT). Smith has achieved and held several US and international box office records.</p>
+			<hr>
+			<h2>Click below links to learn more about what happened that night:</h2>
+			<a href= "https://en.wikipedia.org/wiki/Will_Smith%E2%80%93Chris_Rock_slapping_incident" target="_blank"><i>What Happened That Night?</i></a><br>
+			<a href= "https://www.youtube.com/watch?v=myjEoDypUD8&ab_channel=GuardianNews" target="_blank"><i>Watch the Video</i></a>
+			<hr>
+			<p id ="bodycolor"><b id="boldtext">The Academy</b> "</b> condemns the actions of Mr. Smith at last night's show. We have officially started a formal review around the incident and will explore further action and consequences in accordance with our bylaws, standards of conduct and California law.
+	</p>
+
+</html>
