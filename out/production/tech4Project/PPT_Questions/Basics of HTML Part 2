@@ -1,0 +1,112 @@
+                                                    Schedule Table
+------------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Table</title>
+</head>
+<body>
+    <h1>My Schedule</h1>
+    <style type="text/css">
+        h1{
+            color: steelblue;
+        }
+        thead{
+            background-color: tan;
+        }
+        tbody{
+            background-color: lightsteelblue;
+        }
+    </style>
+<table>
+        <thead>
+            <!--Column Headers goes here-->
+            <tr>
+                <th>        </th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>09:00 - 12:00</td>
+                <td>Study</td>
+                <td>Study</td>
+                <td>Study</td>
+                <td>Study</td>
+                <td>Study</td>
+                <td>Study</td>
+                <td>Study</td>
+
+            </tr>
+            <tr>
+                <td>12:00 - 14:00</td>
+                <td>Lunch</td>
+                <td>Lunch</td>
+                <td>Lunch</td>
+                <td>Lunch</td>
+                <td>Lunch</td>
+                <td>Lunch</td>
+                <td>Lunch</td>
+
+            </tr>
+            <tr>
+                <td>14:00 - 21:00</td>
+                <td></td><td></td><td></td><td></td>
+                <td>Hang Out</td>
+                <td>Swim</td>
+                <td></td>
+
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+                                                    Application Form
+------------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Application Form</title>
+</head>
+<body>
+<style type="text/css">
+	h1, h2{
+		color: blue;
+	}
+	h3{
+		color: blue;
+	}
+	body{
+		text-align: center;
+	}
+</style>
+
+<img src="https://lifeyourway.net/wp-content/uploads/2021/03/maxim-ilyahov-r-le9uC021E-unsplash-1024x683.jpg" img align="right" >
+	<h2>TechGlobal:  "Our Goal is Your Success"</h2>
+	<h3>Batch 5 Application Form<h3>
+
+	<input type="text" name="firstname", id="firstname", placeholder="First Name" style="height: 50px; width:  300px">
+	<br><br>
+	<input type="text" name="lastname", id="lastname", placeholder="Last Name" style="height: 50px; width:  300px"><br><br>
+	<input type="text" name="DOB", id = "DOB", placeholder="Date of Birth (MM/DD/YYYY)" style="height: 50px; width:  300px"><br><br>
+	<input type="text" name="email", id="email", placeholder="Email Address" style="height: 50px; width:  300px"><br><br>
+	<input type="text" name="phone", id="phone", placeholder="Phone Number" style="height: 50px; width:  300px">
+	<br><br>
+	<input type="text" name="Address", id="Address", placeholder="Enter your address" style="height: 50px; width:  300px"><br><br>
+	<textarea placeholder="How did you hear about us?" style="height: 50px; width: 300px;"></textarea> <br>
+	<textarea placeholder="Please explain why you would like to join our school..." style="height: 50px; width: 300px;"></textarea> <br>
+	<input type="submit" name="Apply Now", id="click", placeholder="Apply Now">
+</body>
+</html>

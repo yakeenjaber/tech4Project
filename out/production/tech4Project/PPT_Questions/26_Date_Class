@@ -1,0 +1,12 @@
+What is Date class in Java and why do we use it?
+    - Date class is a way we can get the current time, date in multiple different forms.
+
+    FORMATS
+    yyyy-MM-dd -> 2021-07-15
+    MM/dd/yyyy -> 07/15/2021
+    dd-MMM-yyyy ->  15-Jul-2021
+    E, MMM dd yyyy -> Thu, Jul 15 2021
+    hh:mm:ss a -> 08:33:27 PM
+    h:mm a  ->  8:37 PM
+    EEE  ->  Thu
+    EEEE  ->  Thursday
