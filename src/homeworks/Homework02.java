@@ -8,7 +8,7 @@ public class Homework02 {
         //Yakeen Jaber
         //Task 1
         Scanner input = new Scanner(System.in);
-        Scanner adressScanner = new Scanner(System.in);
+        Scanner addressScanner = new Scanner(System.in);
         Scanner phoneNumberscan = new Scanner(System.in);
 
         System.out.println("Enter Your First Name: ");
@@ -28,7 +28,7 @@ public class Homework02 {
 
 
         System.out.println("Enter Your Address: ");
-        String address = adressScanner.nextLine();
+        String address = addressScanner.nextLine();
 
         //Output Statements
         System.out.print("User who joined this program is " + firstName + " " + lastName + ". ");
